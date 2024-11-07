@@ -1,8 +1,8 @@
-const result = confirm("Ты пожрал?");
+const result = confirm("Ты поел?");
 console.log(result);  // Выведет true или false
 
 if (result) {
-    alert("Сиди перди");
+    alert("Сиди, отдыхай");
 } else {
-    alert("Тогда не выеживайся");
+    alert("Тогда поешь");
 }
